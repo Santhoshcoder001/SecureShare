@@ -1,21 +1,15 @@
-# Transfer
+# SecureShare
 
 A simple local file server app for Android. Download and upload files quickly across devices over Wi-Fi — no cables, no cloud.
 
 <table>
   <tr>
     <td>
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/01.png" width="150px" />
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/02.png" width="150px" />
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/03.png" width="150px" />
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/04.png" width="150px" />
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/05.png" width="150px" />
-    	<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/06.png" width="150px" />
     </td>
   </tr>
 </table>
 
-Transfer makes sharing files across your local network incredibly straightforward. Think of it as a temporary USB stick you can access from any computer or device with a web browser — but without the physical stick, powered by a clean and simple UI.
+SecureShare makes sharing files across your local network incredibly straightforward. Think of it as a temporary USB stick you can access from any computer or device with a web browser — but without the physical stick, powered by a clean and simple UI.
 
 Basically, a better alternative to running `uploadserver` through Termux.
 
@@ -35,23 +29,12 @@ Imagine you need to transfer a file between your laptop and desktop — but you 
     * **Password Protection**: For an added layer, you can secure access with a password (off by default).
 * **Powerful CLI Access (curl-friendly)**:
     * Transfer works great with command-line tools. Upload files directly using `curl -T yourfile.txt <your-phone-ip>:8000`.Also,you can download files using`curl <phone-ip>:8000/yourfile.txt`.
-* **Dual Browse UI**: Manage and access your shared files directly within the Transfer app on your Android device, or through the intuitive web interface on any connected computer.
+* **Dual Browse UI**: Manage and access your shared files directly within the SecureShare app on your Android device, or through the intuitive web interface on any connected computer.
 * **Quick In-App Transfers**:
     * **Upload**: Easily select files from your phone’s storage to add them to the shared folder.
     * **Paste**: Paste text from your phone’s clipboard directly into a new `.txt` file in the shared folder with a single tap.
 
-## How to get the app
-#### Recommended ways:
-1. from [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/com.matanh.transfer) (use an F-Droid client like Neo Store, Droid-ify, or add IzzyOnDroid repo.)
 
-  <a href="https://apt.izzysoft.de/fdroid/index/apk/com.matanh.transfer">
-    <img alt="Get it on IzzyOnDroid" src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroidButtonGreyBorder_nofont.png" height="54">
-  </a>
-
-2. [from Google play!](https://play.google.com/store/apps/details?id=com.matanh.transfer) - new
-
-#### Other ways
-Directly from [github releases](https://github.com/matan-h/Transfer/releases) (and you can also point Obtainium to this link.)
 
 ## Getting Started
 
@@ -95,3 +78,4 @@ To get started, look at the `CONTRIBUTING.md` file
 
 ## License
 this repo is Licensed under the MIT license.
+
