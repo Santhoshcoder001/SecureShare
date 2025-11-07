@@ -76,6 +76,6 @@ Any contributions, bugs, or feedback are welcome!
 Feel free to open an issue or PR.
 To get started, look at the `CONTRIBUTING.md` file
 
-## License
-this repo is Licensed under the MIT license.
+
+
 
